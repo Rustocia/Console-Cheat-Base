@@ -19,6 +19,17 @@ DWORD WINAPI MainThread(HMODULE hModule)
     FILE* f;
     freopen_s(&f, "CONOUT$", "w", stdout);
 
+    while (true)
+    {
+
+      
+
+      if (GetAsyncKeyState(VK_END) & 1)
+      {
+        fclose(f);
+        FreeLibraryAndExitThread(hModule);
+      }
+    }
 
     return 0;
 }
@@ -39,4 +50,3 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
-
