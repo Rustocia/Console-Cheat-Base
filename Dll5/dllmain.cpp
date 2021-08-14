@@ -22,13 +22,12 @@ DWORD WINAPI MainThread(HMODULE hModule)
     while (true)
     {
 
-      
-
       if (GetAsyncKeyState(VK_END) & 1)
       {
         fclose(f);
         FreeLibraryAndExitThread(hModule);
       }
+      
     }
 
     return 0;
