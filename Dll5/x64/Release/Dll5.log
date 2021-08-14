@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+C:\Users\Leo Delic\source\repos\Dll5\Dll5\dllmain.cpp(13,55): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Leo Delic\source\repos\Dll5\Dll5\dllmain.cpp(13,55): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  Generating code
+  Previous IOBJ not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dll5.vcxproj -> C:\Users\Leo Delic\source\repos\Dll5\x64\Release\Dll5.dll
